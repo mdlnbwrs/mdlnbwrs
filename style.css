@@ -57,7 +57,7 @@ figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .4
 
 /* small screens: stack everything, photos scroll normally, arrows hidden */
 @media (max-width:800px){
-  html{font-size:17px}
+  html{font-size:12px}
   body{display:block;height:auto;overflow:visible}
   .sidebar{padding:2rem 1.5rem 1.5rem}
   .menu{margin-left:0}
