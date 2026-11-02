@@ -6,7 +6,7 @@
   --display:"Jost",Futura,"Century Gothic","Trebuchet MS",sans-serif;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{font-size:clamp(14px,1.2vw,19px);background:var(--bg);color:var(--ink)}
+html{font-size:clamp(12px,1.2vw,19px);background:var(--bg);color:var(--ink)}
 body{font:1rem/1.35 var(--serif);height:100vh;overflow:hidden;display:grid;grid-template-columns:33.65vw 1fr}
 a{color:inherit;text-decoration:none}
 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em}
@@ -57,7 +57,7 @@ figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.55rem .4
 
 /* small screens: stack everything, photos scroll normally, arrows hidden */
 @media (max-width:800px){
-  html{font-size:12px}
+  html{font-size:16px}
   body{display:block;height:auto;overflow:visible}
   .sidebar{padding:2rem 1.5rem 1.5rem}
   .menu{margin-left:0}
